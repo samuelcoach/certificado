@@ -1,0 +1,91 @@
+html,body{
+    margin: none;
+    padding: none;
+    height:100%;
+}
+
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+#cabecera{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    background-color: blue;
+    background-image: url(..//img/banner-certificados.jpg);
+    background-size: cover;
+    padding: 3% 3% 3% 3%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#lista{
+    background-color: #1abc9c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 2% 2% 2% 2%;
+}
+
+#lista a{
+    color: #1abc9c;  
+}
+
+tr:nth-child(2n)
+{
+    color: #FFF;
+}
+
+tr:nth-child(2n+1)
+{
+    color: grey;
+}
+
+/*Formulario*/
+form-group {
+    margin-bottom: 0;
+}
+
+#form-cliente{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #a4a4a4;
+}
+
+.btn.btn-default{
+    margin: 10px 0 10px 0;
+    background-color: #1abc9c;
+    width: 100%;
+    color: #fff;
+}
+
+a#ayuda{
+    float: right;
+    color: #1abc9c;
+}
+
+
+
+
+/* Lista información */
+#lista-informacion{
+    width: 100%;
+    background-color: #fff;
+    color:black;
+    padding: 10px;
+}
+
