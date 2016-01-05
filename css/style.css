@@ -89,3 +89,8 @@ a#ayuda{
     padding: 10px;
 }
 
+/*Cabecera modal*/
+.model-content{
+    background-color: aliceblue;
+    color: black;
+}

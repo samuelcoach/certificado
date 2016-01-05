@@ -24,10 +24,32 @@
                     <div id="form-cliente" class="form-group">
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Número de Cédula">
                         <input class="btn btn-default" type="submit" value="Ver Certificados">
-                        <a id="ayuda">Ayuda</a>
+                        <a id="ayuda" data-toggle="modal" data-target="#miventana">Ayuda</a>
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="model-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Hola si necesitas ayuda</h4>
+                        </div>
+                        <div class="modal-boddy">
+                            <ul>
+                                <li>Uno</li>
+                                <li>Dos</li>
+                                <li>Tres</li>
+                                <li>Cuatro</li>
+                                <li>Cinco</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn- btn-primary" data-dismiss="modal">Cerrar</button>
+                        </div>                    
+                </div><!-- contenido del modal -->
+            </div><!-- modal dialog -->
+        </div><!-- modal -->
         </div>
     </div>
     <div id="lista">
@@ -94,8 +116,7 @@
             </div>
             </div>
         </div>
-
-
+        
 
 
 
